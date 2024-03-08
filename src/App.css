@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+nav {
+  max-width: 1148px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #022A1E;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #03573e;
+}
+
+nav button {
+  width: 167px;
+  height: 46px;
+  border-radius: 100px;
+  border: 1px solid #022A1E;
+  background-color: transparent;
+  margin-left: 20px;
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #022A1E;
+  color: white;
+}
+
+/* Main start */
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin: 0px auto;
+  max-width: 1128px;
+  width: 100%;
+  background: #022A1E;
+  padding: 50px;
+  color: white;
+}
+
+main h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  width: 455px;
+  color: rgb(210, 210, 210);
+  margin-bottom: 30px;
+}
+
+main button {
+  width: 397px;
+  height: 66px;
+  background-color: yellow;
+  border-radius: 40px;
+  font-size: 40px;
+  border: none;
+}
+
+main button::before {
+  content: "";
+  border: 10px solid yellow;
+  border-color: transparent transparent yellow yellow;
+  position: absolute;
+  margin-left: -38px;
+  margin-top: 34px;
+}
+
+/* Main end */
+
+
+/* Brends start */
+
+.brend {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.brend h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.brend div img
+{
+  margin-left: 40px;
+  cursor: pointer;
+}
